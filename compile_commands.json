@@ -1,0 +1,3416 @@
+[
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "cleanup", 
+            "-pthread", 
+            "cleanup.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "cleanup.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mandatory", 
+            "mandatory.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "mandatory.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sigusr", 
+            "sigusr.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "sigusr.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "prexit.o", 
+            "prexit.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "prexit.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "memstr", 
+            "memstr.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "memstr.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "daemonize.o", 
+            "daemonize.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "daemonize.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ruptimed-fd.o", 
+            "ruptimed-fd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "ruptimed-fd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "myuclc", 
+            "myuclc.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "myuclc.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getcharbug", 
+            "getcharbug.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "getcharbug.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "client.o", 
+            "client.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend", 
+        "file": "client.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "initsrv1.o", 
+            "initsrv1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "initsrv1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "goodexit", 
+            "-pthread", 
+            "goodexit.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "goodexit.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getcputc", 
+            "getcputc.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "getcputc.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "maketimeout.o", 
+            "maketimeout.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "maketimeout.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "cliargs.o", 
+            "cliargs.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend", 
+        "file": "cliargs.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "servaccept.o", 
+            "servaccept.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "servaccept.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "t_getpass", 
+            "t_getpass.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "t_getpass.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleep2.o", 
+            "sleep2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "sleep2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "access", 
+            "access.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "access.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "systest1.o", 
+            "systest1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "systest1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "system.o", 
+            "system.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "system.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "options", 
+            "options.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/standards", 
+        "file": "options.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "umask", 
+            "umask.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "umask.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "nonblockw", 
+            "nonblockw.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "nonblockw.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "child", 
+            "child.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "child.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "fifo1", 
+            "-pthread", 
+            "fifo1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "fifo1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "csize", 
+            "csize.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "csize.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "doatexit", 
+            "doatexit.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "doatexit.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "filetype", 
+            "filetype.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "filetype.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "conf", 
+            "conf.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/standards", 
+        "file": "conf.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getenv3.o", 
+            "getenv3.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "getenv3.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "t_ttyname", 
+            "t_ttyname.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "t_ttyname.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "scope.o", 
+            "scope.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "scope.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "main.o", 
+            "main.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/open.fe", 
+        "file": "main.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "reread.o", 
+            "reread.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/daemons", 
+        "file": "reread.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "openmax.o", 
+            "openmax.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "openmax.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ttyname.o", 
+            "ttyname.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "ttyname.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "devzero", 
+            "devzero.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "devzero.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "rwlock.o", 
+            "rwlock.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "rwlock.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "reread2.o", 
+            "reread2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/daemons", 
+        "file": "reread2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "cliargs.o", 
+            "cliargs.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend.fe", 
+        "file": "cliargs.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "read2", 
+            "read2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "read2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "locktest.o", 
+            "locktest.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "locktest.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "seek", 
+            "seek.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/fileio", 
+        "file": "seek.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "testerror", 
+            "testerror.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "testerror.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "prtime", 
+            "-pthread", 
+            "prtime.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "prtime.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "loop.poll.o", 
+            "loop.poll.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend", 
+        "file": "loop.poll.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "orphan3", 
+            "orphan3.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/relation", 
+        "file": "orphan3.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleep.o", 
+            "sleep.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "sleep.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "bo", 
+            "-pthread", 
+            "bo.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "bo.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "servlisten.o", 
+            "servlisten.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "servlisten.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "popen.o", 
+            "popen.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "popen.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "suspend", 
+            "-pthread", 
+            "suspend.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "suspend.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "suspend1", 
+            "suspend1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "suspend1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "wait1", 
+            "wait1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "wait1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getpass.o", 
+            "getpass.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "getpass.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-I.", 
+            "t4.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/db", 
+        "file": "t4.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleep1.o", 
+            "sleep1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "sleep1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "shell2", 
+            "shell2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "shell2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "driver.o", 
+            "driver.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/pty", 
+        "file": "driver.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "findsvc", 
+            "findsvc.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "findsvc.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "atfork", 
+            "-pthread", 
+            "atfork.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "atfork.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ruptimed-dg.o", 
+            "ruptimed-dg.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "ruptimed-dg.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getrlimit", 
+            "getrlimit.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "getrlimit.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "setfl.o", 
+            "setfl.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/fileio", 
+        "file": "setfl.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "t_isatty", 
+            "t_isatty.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "t_isatty.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "recvfd.o", 
+            "recvfd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "recvfd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "fork1", 
+            "fork1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "fork1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleepus_select.o", 
+            "sleepus_select.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "sleepus_select.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tellwait1", 
+            "tellwait1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "tellwait1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "abort.o", 
+            "abort.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "abort.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getlogin", 
+            "-pthread", 
+            "getlogin.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "getlogin.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "fgetsfputs", 
+            "fgetsfputs.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "fgetsfputs.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "loop.select.o", 
+            "loop.select.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend", 
+        "file": "loop.select.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "systest3.o", 
+            "systest3.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "systest3.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "exitstatus", 
+            "-pthread", 
+            "exitstatus.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "exitstatus.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sendfd.o", 
+            "sendfd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "sendfd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "print.o", 
+            "print.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/printer", 
+        "file": "print.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "lockfile.o", 
+            "lockfile.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "lockfile.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "signalintr.o", 
+            "signalintr.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "signalintr.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "nice", 
+            "nice.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "nice.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "main.o", 
+            "main.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend.fe", 
+        "file": "main.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "buf", 
+            "buf.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "buf.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "main.o", 
+            "main.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/pty", 
+        "file": "main.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mcopy2", 
+            "mcopy2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "mcopy2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-pthread", 
+            "-o", 
+            "timedlock", 
+            "timedlock.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "timedlock.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "errorlog.o", 
+            "errorlog.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "errorlog.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "fileflags", 
+            "fileflags.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/fileio", 
+        "file": "fileflags.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "detach.o", 
+            "detach.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "detach.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mask", 
+            "mask.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "mask.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "condvar.o", 
+            "condvar.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "condvar.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ptyfork.o", 
+            "ptyfork.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "ptyfork.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-pthread", 
+            "-o", 
+            "barrier", 
+            "barrier.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "barrier.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "hello1", 
+            "hello1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "hello1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "setfd.o", 
+            "setfd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "setfd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pipe1", 
+            "pipe1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "pipe1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "deadlock", 
+            "deadlock.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "deadlock.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tellwait.o", 
+            "tellwait.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "tellwait.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "zap", 
+            "zap.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "zap.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "longpath", 
+            "-pthread", 
+            "longpath.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "longpath.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "times1", 
+            "times1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "times1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "hole", 
+            "hole.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/fileio", 
+        "file": "hole.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getenv1.o", 
+            "getenv1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "getenv1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "fork2", 
+            "fork2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "fork2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "signal.o", 
+            "signal.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "signal.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "shell1", 
+            "shell1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "shell1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pipe4", 
+            "pipe4.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "pipe4.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "timeout.o", 
+            "timeout.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "timeout.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pipe2", 
+            "pipe2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "pipe2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "add2", 
+            "add2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "add2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "vfork3", 
+            "-pthread", 
+            "vfork3.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "vfork3.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "badexit2", 
+            "-pthread", 
+            "badexit2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "badexit2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "settty", 
+            "settty.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "settty.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "bufargs.o", 
+            "bufargs.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "bufargs.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mutex1.o", 
+            "mutex1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "mutex1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "lockreg.o", 
+            "lockreg.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "lockreg.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pruids", 
+            "pruids.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "pruids.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "reenter", 
+            "reenter.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "reenter.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "open.o", 
+            "open.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/open.fe", 
+        "file": "open.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "uidgid", 
+            "uidgid.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "uidgid.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "systest2.o", 
+            "systest2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "systest2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getenv2.o", 
+            "getenv2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threadctl", 
+        "file": "getenv2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "request.o", 
+            "request.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend", 
+        "file": "request.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "t_raw", 
+            "t_raw.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "t_raw.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "writen.o", 
+            "writen.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "writen.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "senderr.o", 
+            "senderr.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "senderr.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "echoarg", 
+            "echoarg.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "echoarg.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tsleep2.o", 
+            "tsleep2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "tsleep2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "strftime", 
+            "strftime.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/datafiles", 
+        "file": "strftime.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "setfl.o", 
+            "setfl.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "setfl.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "rot13c2", 
+            "rot13c2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "rot13c2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mycat", 
+            "mycat.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/fileio", 
+        "file": "mycat.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pendlock", 
+            "-pthread", 
+            "pendlock.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "pendlock.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mycd", 
+            "mycd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "mycd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "rot13a", 
+            "rot13a.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/advio", 
+        "file": "rot13a.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "read1", 
+            "read1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "read1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sizepipe", 
+            "-pthread", 
+            "sizepipe.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "sizepipe.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "loop.o", 
+            "loop.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/pty", 
+        "file": "loop.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "testjmp", 
+            "testjmp.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "testjmp.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "popen2", 
+            "popen2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "popen2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "spipe.o", 
+            "spipe.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "spipe.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "clrfl.o", 
+            "clrfl.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "clrfl.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "vfork1", 
+            "vfork1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "vfork1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "system.o", 
+            "system.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "system.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "devrdev", 
+            "devrdev.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "devrdev.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pathalloc.o", 
+            "pathalloc.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "pathalloc.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ptyopen.o", 
+            "ptyopen.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "ptyopen.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ftw8", 
+            "ftw8.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "ftw8.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mutex2.o", 
+            "mutex2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "mutex2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "unlink", 
+            "unlink.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "unlink.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "prmask.o", 
+            "prmask.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "prmask.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "exec2", 
+            "exec2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "exec2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "zombie", 
+            "-pthread", 
+            "zombie.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "zombie.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "readn.o", 
+            "readn.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "readn.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "cdpwd", 
+            "cdpwd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "cdpwd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tellwait2", 
+            "tellwait2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "tellwait2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ruptime.o", 
+            "ruptime.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "ruptime.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "init.o", 
+            "init.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/daemons", 
+        "file": "init.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "threadid", 
+            "-pthread", 
+            "threadid.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "threadid.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "error.o", 
+            "error.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "error.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tempfiles", 
+            "tempfiles.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "tempfiles.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ruptimed.o", 
+            "ruptimed.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "ruptimed.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mkstemp", 
+            "mkstemp.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "mkstemp.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ttymodes.o", 
+            "ttymodes.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "ttymodes.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getcputc", 
+            "getcputc.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/stdio", 
+        "file": "getcputc.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleep.o", 
+            "sleep.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "sleep.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sendfd2.o", 
+            "sendfd2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2", 
+        "file": "sendfd2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mutex3.o", 
+            "mutex3.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/threads", 
+        "file": "mutex3.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "pollmsg", 
+            "-pthread", 
+            "pollmsg.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2", 
+        "file": "pollmsg.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "popen.o", 
+            "popen.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "popen.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-pthread", 
+            "-o", 
+            "getpwsvr4", 
+            "getpwsvr4.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "getpwsvr4.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "single.o", 
+            "single.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/daemons", 
+        "file": "single.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "suspend2", 
+            "suspend2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "suspend2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "critical", 
+            "critical.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "critical.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "openmax.o", 
+            "openmax.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "openmax.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "getpwnam.o", 
+            "getpwnam.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/datafiles", 
+        "file": "getpwnam.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "echoall", 
+            "echoall.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "echoall.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleepus.o", 
+            "sleepus.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "sleepus.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-fPIC", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "db.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/db", 
+        "file": "db.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "request.o", 
+            "request.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend.fe", 
+        "file": "request.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "popen1", 
+            "popen1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "popen1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "add2stdio", 
+            "add2stdio.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "add2stdio.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "clconn.o", 
+            "clconn.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "clconn.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-DHAS_AXSIG", 
+            "-DHAS_ACORE", 
+            "-o", 
+            "pracct", 
+            "pracct.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "pracct.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "slock.o", 
+            "slock.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "slock.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "winch", 
+            "winch.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "winch.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "recvfd2.o", 
+            "recvfd2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2", 
+        "file": "recvfd2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tellwait.o", 
+            "tellwait.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "tellwait.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "asyncsocket.o", 
+            "asyncsocket.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "asyncsocket.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "main.o", 
+            "main.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/open", 
+        "file": "main.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "test1", 
+            "test1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "test1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ctermid.o", 
+            "ctermid.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "ctermid.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "open.o", 
+            "open.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/open", 
+        "file": "open.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "opendata.o", 
+            "opendata.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/environ", 
+        "file": "opendata.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "hello", 
+            "hello.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "hello.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "initsrv2.o", 
+            "initsrv2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "initsrv2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "mycat", 
+            "mycat.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "mycat.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "clconn2.o", 
+            "clconn2.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "clconn2.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ruptime-dg", 
+            "ruptime-dg.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/sockets", 
+        "file": "ruptime-dg.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "main.o", 
+            "main.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2/opend", 
+        "file": "main.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "util.o", 
+            "util.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/printer", 
+        "file": "util.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sigtstp", 
+            "sigtstp.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/signals", 
+        "file": "sigtstp.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sleepus_poll.o", 
+            "sleepus_poll.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/exercises", 
+        "file": "sleepus_poll.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "exec1", 
+            "exec1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/proc", 
+        "file": "exec1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "tshm", 
+            "tshm.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc1", 
+        "file": "tshm.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "cliconn.o", 
+            "cliconn.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/lib", 
+        "file": "cliconn.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "sendmsg", 
+            "-pthread", 
+            "sendmsg.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2", 
+        "file": "sendmsg.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "isatty.o", 
+            "isatty.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/termios", 
+        "file": "isatty.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "ls1", 
+            "ls1.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/intro", 
+        "file": "ls1.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "printd.o", 
+            "printd.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/printer", 
+        "file": "printd.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "changemod", 
+            "changemod.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/filedir", 
+        "file": "changemod.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-ansi", 
+            "-I../include", 
+            "-Wall", 
+            "-DLINUX", 
+            "-D_GNU_SOURCE", 
+            "-o", 
+            "bindunix", 
+            "-pthread", 
+            "bindunix.c"
+        ], 
+        "directory": "/data/mm64/markfqwu/apue.3e/ipc2", 
+        "file": "bindunix.c"
+    }
+]
